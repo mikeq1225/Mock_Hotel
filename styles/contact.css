@@ -1,0 +1,26 @@
+/* Contact Form section */
+#contactForm .formGroup {
+	margin: 0px 0px 20px 0px;
+}
+
+#contactForm label {
+	display: block;
+	margin: 0px 0px 5px 0px;
+}
+
+#contactForm input,
+#contactForm textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+#contactForm textarea {
+	height: 200px;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+	outline: none;
+	border-color: #f7c08a;
+}
