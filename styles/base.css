@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7em;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+	padding: 0px 0px 20px 0px;
+}
+
+p {
+	margin: 10px 0px;
+}
+
+/* Utility classes */
+.container {
+	margin: auto;
+	max-width: 1100px;
+	overflow: auto;
+	padding: 0px 20px;
+}
+
+.textPrimary {
+	color: #f7c08a;
+}
+
+.lead {
+	font-size: 20px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	background: #333;
+	padding: 13px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: #f7c08a;
+	color: #333;
+}
+
+.btnLight {
+	background: #f4f4f4;
+	color: #333;
+}
+
+.bgDark {
+	background: #333;
+	color: #fff;
+}
+
+.bgLight {
+	background: #f4f4f4;
+	color: #333;
+}
+
+.bgPrimary {
+	background: #f7c08a;
+	color: #333;
+}
+
+.clr {
+	clear: both;
+}
+
+/* NavBar */
+#navBar {
+	background: #333;
+	color: #fff;
+	overflow: auto;
+}
+
+#navBar a {
+	color: #fff;
+}
+
+#navBar h1 {
+	float: left;
+	padding: 20px 0px 0px 0px;
+}
+
+#navBar ul {
+	list-style: none;
+	float: right;
+}
+
+#navBar ul li {
+	float: left;
+}
+
+#navBar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#navBar ul li a:hover,
+#navBar ul li a.current {
+	background: #444;
+	color: #f7c08a;
+}
+
+/* Showcase section styling */
+#showcase {
+	background: url("../images/showcase.jpg") no-repeat center center/cover;
+	height: 600px;
+}
+
+#showcase .showcaseContent {
+	color: #fff;
+	text-align: center;
+	padding: 170px 0px 0px 0px;
+}
+
+#showcase .showcaseContent h1 {
+	font-size: 60px;
+	line-height: 1.2em;
+}
+
+#showcase .showcaseContent p {
+	padding: 0px 0px 20px 0px;
+	line-height: 1.7em;
+}
+
+/* Home Infor */
+#homeInfo {
+	height: 400px;
+}
+
+#homeInfo .infoImg {
+	float: left;
+	width: 50%;
+	background: url("../images/photo-1.jpg") no-repeat;
+	min-height: 100%;
+}
+
+#homeInfo .infoContent {
+	float: right;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	padding: 50px 30px;
+	overflow: hidden;
+}
+
+#homeInfo .infoContent p {
+	padding: 0px 0px 30px 0px;
+}
+
+/* Features Section */
+.box {
+	float: left;
+	width: 33.3%;
+	padding: 50px;
+	text-align: center;
+}
+
+.box i {
+	margin: 0px 0px 10px 0px;
+}
+
+/* Footer */
+#mainFooter {
+	text-align: center;
+	background: #444;
+	color: #fff;
+	padding: 20px;
+}
