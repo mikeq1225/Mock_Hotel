@@ -81,6 +81,21 @@ p {
 	clear: both;
 }
 
+.largeHeading {
+	font-size: 40px;
+}
+
+/* Padding */
+.py1 {
+	padding: 10px 0px;
+}
+.py2 {
+	padding: 20px 0px;
+}
+.py3 {
+	padding: 30px 0px;
+}
+
 /* NavBar */
 #navBar {
 	background: #333;
