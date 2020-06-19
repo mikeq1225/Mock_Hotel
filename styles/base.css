@@ -83,6 +83,7 @@ p {
 
 .largeHeading {
 	font-size: 40px;
+	line-height: 1.2;
 }
 
 /* Padding */
@@ -107,7 +108,7 @@ p {
 	color: #fff;
 }
 
-#navBar h1 {
+#navBar .logo {
 	float: left;
 	padding: 20px 0px 0px 0px;
 }
@@ -155,9 +156,9 @@ p {
 	line-height: 1.7em;
 }
 
-/* Home Infor */
+/* Home Info */
 #homeInfo {
-	height: 400px;
+	height: 450px;
 }
 
 #homeInfo .infoImg {
